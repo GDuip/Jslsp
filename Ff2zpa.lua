@@ -109,10 +109,7 @@ local CurrentCamera = Workspace.CurrentCamera
 local HIDER_PREFIX = "[FF2 Bypass] "
 local function log_warn_hider(str, ...) warn(HIDER_PREFIX .. string.format(str, ...)) end
 
--- Place ID Check (Loosened to just warn)
-if game.PlaceId ~= 8204899140 and game.PlaceId ~= 104709320604721 and game.PlaceId ~= 8206123457 then
-    log_warn_hider("Running outside known FF2 PlaceIDs, bypass might be less effective.")
-end
+-- Place ID Check (Loosened to just warn
 
 -- LPH Compatibility (Attempt)
 if not _G.LPH_OBFUSCATED then
