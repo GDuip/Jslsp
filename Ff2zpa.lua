@@ -1,20 +1,4 @@
---[[
-    FF2 Supreme Cheats - Fully Combined & Spoofed
-    Features: QB Aimbot, Silent Aim, ESP, Speed, Jump, Magnet, AutoCatch, Prediction, Hider/Bypass
-    UI: Fluent
-    Disclaimer: Use at your own risk. Exploiting violates Roblox ToS. Undetectable status is not guaranteed.
---]]
-
---========================================================================
---[ Configuration Table - Central Control ]
---========================================================================
-local Config = {
-    -- Core Toggles
-    PanicKeyEnabled = true,       -- Master switch for most features
-    AntiSpectate = true,          -- Disable features if spectated
-
-    -- QB Aimbot
-    QBAimbotEnabled = false,
+local Config = { QBAimbotEnabled = false,
     AimbotMode = "Legit",         -- "Legit" or "Rage"
     AimbotTargetPart = "Head",    -- "Head" or "HumanoidRootPart"
     AimbotFOV = 300,              -- Max distance/radius check for targeting
